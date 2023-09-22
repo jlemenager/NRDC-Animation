@@ -1,0 +1,148 @@
+body{
+    background-color: #E5E9ED;
+}
+
+.donations{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-image{
+    width:52%;
+}
+
+.animations{
+    z-index: 1;
+}
+
+.animation-image{
+    visibility: hidden;
+}
+
+
+.tree-image{
+    width:20%;
+    visibility: visible;
+    margin-bottom:320px;
+    /* animation: appear 1s 1s infinite; */
+}
+
+.bear-image{
+    width:5%;
+    margin-bottom:340px;
+    margin-left: -40px;
+    margin-right:10%;
+    visibility: visible;
+    /* animation: appear 1s 1.5s infinite; */
+}
+
+.small-tree-image{
+    width:2%;
+}
+
+.small-tree-image-big{
+    width:3.75%;
+    margin-bottom:400px;
+    margin-left:-80px;
+    animation: appear 1s 1.5s infinite;
+}
+
+.small-tree-image1{
+    width:3%;
+}
+
+.small-tree-image2{
+    width:2.5%;
+}
+
+.small-tree-image1a{
+    margin-bottom: 430px;
+    animation: appear 1s 1.75s infinite;
+}
+
+.small-tree-image1b{
+    margin-bottom: 450px;
+    animation: appear 1s 2s infinite;
+}
+
+.small-tree-image1c{
+    margin-bottom: 440px;
+    margin-left:30px;
+    animation: appear 1s 2.25s infinite;
+}
+
+.small-tree-image2a{
+    margin-bottom: 460px;
+    animation: appear 1s 2.5s infinite;
+}
+
+.small-tree-image2b{
+    margin-bottom: 470px;
+    animation: appear 1s 2.75s infinite;
+}
+
+.small-tree-image2c{
+    margin-bottom: 465px;
+    animation: appear 1s 3s infinite;
+}
+
+.small-tree-image2d{
+    margin-bottom: 480px;
+    animation: appear 1s 3.25s infinite;
+}
+
+.small-tree-image-a{
+    margin-bottom: 500px;
+    animation: appear 1s 3.5s infinite;
+}
+
+.small-tree-image-b{
+    margin-bottom: 480px;
+    animation: appear 1s 3.75s infinite;
+}
+
+.small-tree-image-c{
+    margin-bottom: 510px;
+    animation: appear 1s 4s infinite;
+}
+
+.small-tree-image-d{
+    margin-bottom: 505px;
+    animation: appear 1s 4.25s infinite;
+}
+
+.small-tree-image-e{
+    margin-bottom: 525px;
+    animation: appear 1s 4.5s infinite;
+}
+
+.small-tree-image-f{
+    margin-bottom: 505px;
+    animation: appear 1s 4.75s infinite;
+}
+
+.small-tree-image-g{
+    margin-bottom: 500px;
+    animation: appear 1s 5s infinite;
+}
+
+.mountain-image{
+    width:25%;
+    position: absolute;
+    right:10px;
+    top:410px;
+    animation: appear 1s 6s infinite;
+}
+
+.sun-image{
+    width: 80px;
+    position: absolute;
+    right:10px;
+    top:340px;
+    animation: appear 1s 7s infinite;
+}
+
+@keyframes appear {
+    0%{visibility: hidden;}
+    100%{visibility: visible;}
+}
